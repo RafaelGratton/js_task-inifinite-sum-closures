@@ -1,9 +1,9 @@
 'use strict';
 
-/***
+/**
  * @return {function}
  */
-function makeInfinityAdder() {
+function makeAdder() {
   let sum = 0;
 
   function add(x) {
@@ -23,4 +23,4 @@ function makeInfinityAdder() {
   return add;
 }
 
-module.exports = makeInfinityAdder;
+module.exports = makeAdder;
